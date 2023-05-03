@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Favicon using Google service -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.google.com/s2/favicons?domain=fiber.q.com"
+    />
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Quote Generator</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar" id="navbar">
+      <!-- logo -->
+      <div class="logo-container">
+        <img src="logo-colored.png" alt="logo" class="logo" />
+      </div>
+
+      <!-- Tags -->
+      <div class="tag-menu">
+        <!-- Dropdown Button -->
+        <a href="#" class="link5">Tags<i class="fa-solid fa-angle-down"></i></a>
+        <!-- Dropdown menu -->
+        <ul class="dropdown-menu" id="dropdown"></ul>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <!--This container will hold all the quotes information  -->
+      <div id="quote-container">
+        <!-- Quote Text Container -->
+        <div id="quote-text-container">
+          <!-- left quote icon -->
+          <i class="fas fa-quote-left"></i>
+          <span id="quote"></span>
+        </div>
+
+        <!-- Quote Author -->
+        <div id="author-container">
+          <span id="author"></span>
+        </div>
+
+        <!-- Button Container -->
+        <div class="button-container">
+          <!-- Twitter button -->
+          <button id="twitter-btn" class="quote-cont-button">
+            <i class="fab fa-twitter"></i>
+          </button>
+
+          <!-- Next Quote button -->
+          <button id="next-quote" class="quote-cont-button">
+            Next <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
+
+    <!--Script-->
+    <script src="script.js"></script>
+  </body>
+</html>
