@@ -4,6 +4,7 @@ The Quote Generator is a powerful tool that enables users to generate and tweet 
 ## Features 
 
 - Fetches data from Jacinto Quotes API, which includes more than 8000 quotes across multiple categories. 
+  API Url: https://jacintodesign.github.io/quotes-api/data/quotes.json
 - Does manual API data analysis to allow users to filter quotes by selecting tags that are available in the API data.
 - Integrates Twitter Web Intent, which enables users to tweet their favorite quotes with just one click.
 - Offers a sleek, responsive, and interactive UI design. 
