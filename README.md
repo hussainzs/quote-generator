@@ -12,7 +12,7 @@ The Quote Generator is a powerful tool that enables users to generate and tweet 
 
 ## How to use
 
-1. Visit https://hussainzs.github.io/quote-generator/ or clone the repository and open index.html.
+1. Visit https://hussainzs.github.io/tweetable-quote-generator/ or clone the repository and open index.html.
 2. By default, the app will start generating random quotes from any category.
 3. To filter quotes by tag, select your desired tag from the dropdown labeled "Tags."
 4. Click the "Tweet" button to share your favorite quote with your followers on Twitter.
